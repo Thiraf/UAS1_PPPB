@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "282490936384",
+    "project_id": "calorietrakers",
+    "storage_bucket": "calorietrakers.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:282490936384:android:20ed811ba1eebc4ce893a5",
+        "android_client_info": {
+          "package_name": "com.example.travelapplagi"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAgFdDooUY3N4sBVy_c6uaxpzmEaDLlzVU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

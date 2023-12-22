@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:layout_marginHorizontal="2dp"
+    android:layout_marginVertical="4dp"
+    android:paddingVertical="8dp"
+    android:paddingHorizontal="16dp"
+    android:background="@drawable/card_rounded">
+
+    <TextView
+        android:id="@+id/txt_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Lorem Ipsum"
+        android:textColor="@color/WhiteGrey"
+        android:textSize="20sp"
+        android:fontFamily="@font/poppins_bold"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="start">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:text="Kalori"
+            android:textColor="@color/WhiteGrey"
+            android:textSize="16sp"
+            android:fontFamily="@font/poppins_medium"
+            />
+
+        <TextView
+            android:id="@+id/txt_harga"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="4"
+            android:text=": z"
+            android:textColor="@color/WhiteGrey"
+            android:textSize="16sp"
+            android:fontFamily="@font/poppins_medium"
+            />
+    </LinearLayout>
+    <Button
+        android:id="@+id/btn_edit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/poppins_medium"
+        android:backgroundTint="#FFECB3"
+        android:paddingHorizontal="16dp"
+        android:textSize="12sp"
+        android:textAllCaps="false"
+        android:text="Edit Informasi Makanan"
+        android:layout_gravity="end"
+        />
+
+</LinearLayout>

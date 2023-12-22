@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/admin_bottom_navigation"
+    app:startDestination="@id/homeAdminFragment">
+
+    <fragment
+        android:id="@+id/homeAdminFragment"
+        android:name="com.example.travelapplagi.admin.HomeAdminFragment"
+        android:label="fragment_home_admin"
+        tools:layout="@layout/fragment_home_admin" >
+        <action
+            android:id="@+id/action_homeAdminFragment_to_manageTravelActivity"
+            app:destination="@id/manageTravelActivity" />
+    </fragment>
+    <activity
+        android:id="@+id/manageTravelActivity"
+        android:name="com.example.travelapplagi.admin.ManageTravelActivity"
+        android:label="activity_manage_travel"
+        tools:layout="@layout/activity_manage_travel" >
+        <argument
+            android:name="travel_id"
+            app:argType="string"
+            android:defaultValue="@null"
+            app:nullable="true" />
+    </activity>
+    <fragment
+        android:id="@+id/manageUserFragment"
+        android:name="com.example.travelapplagi.admin.ManageUserFragment"
+        android:label="fragment_manage_user"
+        tools:layout="@layout/fragment_manage_user" />
+    <fragment
+        android:id="@+id/profileFragment"
+        android:name="com.example.travelapplagi.user.ProfileFragment"
+        android:label="fragment_profile"
+        tools:layout="@layout/fragment_profile" />
+    <fragment
+        android:id="@+id/pendingTravelFragment"
+        android:name="com.example.travelapplagi.admin.PendingTravelFragment"
+        android:label="fragment_pending_travel"
+        tools:layout="@layout/fragment_pending_travel" />
+</navigation>

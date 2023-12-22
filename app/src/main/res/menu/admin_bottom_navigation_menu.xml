@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/homeAdminFragment"
+        android:icon="@drawable/ic_food"
+        android:title="Makanan"
+        />
+    <item android:id="@+id/pendingTravelFragment"
+        android:icon="@drawable/baseline_pending_actions_24"
+        android:title="Tertunda"
+        />
+    <item android:id="@+id/manageUserFragment"
+        android:icon="@drawable/baseline_admin_panel_settings_24"
+        android:title="Kelola Pengguna"
+        />
+    <item android:id="@+id/profileFragment"
+        android:icon="@drawable/ic_profile"
+        android:title="Profil"
+        />
+</menu>

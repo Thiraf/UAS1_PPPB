@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:layout_marginHorizontal="2dp"
+    android:layout_marginVertical="2dp"
+    android:paddingVertical="8dp"
+    android:paddingHorizontal="16dp"
+    android:background="@drawable/card_rounded"
+    android:backgroundTint="#373B47">
+
+    <TextView
+        android:id="@+id/txt_nama"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Lorem Ipsum"
+        android:textColor="@color/WhiteGrey"
+        android:textSize="20sp"
+        android:fontFamily="@font/poppins_bold"
+        />
+    <TextView
+        android:id="@+id/txt_role"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="4"
+        android:text="Admin/User"
+        android:textColor="@color/WhiteGrey"
+        android:textSize="16sp"
+        android:fontFamily="@font/poppins_medium"
+        />
+    <Button
+        android:id="@+id/btn_manage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/poppins_medium"
+        android:backgroundTint="@color/Green"
+        android:paddingHorizontal="16dp"
+        android:textSize="12sp"
+        android:textAllCaps="false"
+        android:text="Kelola"
+        android:layout_gravity="end"
+        />
+
+</LinearLayout>
